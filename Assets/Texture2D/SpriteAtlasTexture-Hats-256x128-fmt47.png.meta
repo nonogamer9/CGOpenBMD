@@ -1,0 +1,179 @@
+fileFormatVersion: 2
+guid: 1c5e643e154396c4d9647b949c9cc77f
+timeCreated: 1790061550
+licenseType: Free
+TextureImporter:
+  serializedVersion: 7
+  name:
+  fileIDToRecycleName:
+    21300000: CowboyHatIcon
+  externalObjects: {}
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 47
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 16
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 9
+  spritePivot: {x: 0.49842653, y: 0.47155333}
+  spritePixelsToUnits: 74
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: CowboyHatIcon
+      rect:
+        serializedVersion: 2
+        x: 0.042907715
+        y: 0.0362854
+        width: 211.88097
+        height: 122.92081
+      alignment: 9
+      pivot: {x: 0.49842653, y: 0.47155333}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -87.33339, y: -61.49669}
+        - {x: -106.33339, y: -23.496689}
+        - {x: -106.33339, y: 28.503311}
+        - {x: -57.33339, y: 61.50331}
+        - {x: 59.66661, y: 61.50331}
+        - {x: 105.66661, y: 49.50331}
+        - {x: 105.66661, y: -1.4966888}
+        - {x: 85.66661, y: -49.49669}
+        - {x: 15.666611, y: -61.49669}
+      physicsShape:
+      - - {x: 74.66661, y: -31.496689}
+        - {x: 81.66662, y: -22.496689}
+        - {x: 98.66661, y: 0.50331116}
+        - {x: 103.66661, y: 8.503312}
+        - {x: 103.66661, y: 18.503311}
+        - {x: 102.66662, y: 21.503311}
+        - {x: 84.66661, y: 18.503311}
+        - {x: 45.66661, y: -1.4966888}
+        - {x: 42.66661, y: 36.503315}
+        - {x: 29.66661, y: 54.50331}
+        - {x: 15.666611, y: 59.503315}
+        - {x: 8.666611, y: 60.50331}
+        - {x: -0.33338928, y: 60.50331}
+        - {x: -17.33339, y: 56.50331}
+        - {x: -36.33339, y: 45.50331}
+        - {x: -42.33339, y: 32.50331}
+        - {x: -44.33339, y: 22.503311}
+        - {x: -64.33339, y: 32.50331}
+        - {x: -90.33339, y: 27.503313}
+        - {x: -92.33339, y: 24.503311}
+        - {x: -99.33339, y: 17.503311}
+        - {x: -105.33339, y: 9.503311}
+        - {x: -105.33339, y: -5.496689}
+        - {x: -99.33339, y: -25.496689}
+        - {x: -97.33339, y: -29.496689}
+        - {x: -70.33339, y: -57.496693}
+        - {x: -50.33339, y: -59.49669}
+        - {x: -17.33339, y: -59.49669}
+        - {x: 11.666612, y: -48.49669}
+        - {x: 32.66661, y: -38.49669}
+        - {x: 50.66661, y: -29.496689}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0519b4d8dd014ce297282852005f483b
+      vertices:
+      - {x: 211.94049, y: 114.4604}
+      - {x: 191.94049, y: 15.460403}
+      - {x: 211.94049, y: 63.460403}
+      - {x: 165.94049, y: 126.4604}
+      - {x: 121.94048, y: 3.4604034}
+      - {x: 48.940483, y: 126.4604}
+      - {x: 18.940483, y: 3.4604034}
+      - {x: -0.059516907, y: 93.4604}
+      - {x: -0.059516907, y: 41.460403}
+      indices: 080000000700000006000000050000000600000007000000040000000600000005000000030000000400000005000000010000000400000003000000000000000100000003000000020000000100000000000000
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID:
+    vertices: []
+    indices:
+    edges: []
+    weights: []
+  spritePackingTag:
+  output:
+    textureImportInstructions:
+      compressedFormat: 0
+      uncompressedFormat: 0
+      desiredFormat: 0
+      usageMode: 0
+      colorSpace: 0
+      androidETC2FallbackFormat: 0
+      width: 0
+      height: 0
+      compressionQuality: 0
+      androidETC2FallbackDownscale: 0
+    sourceTextureInformation:
+      width: 0
+      height: 0
+      doesTextureContainAlpha: 0
+      sourceWasHDR: 0
+    importInspectorWarnings:
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData:
+  assetBundleName:
+  assetBundleVariant:

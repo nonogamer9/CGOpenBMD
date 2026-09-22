@@ -1,0 +1,9 @@
+{
+  "name": "ProBuilderMeshOps-Unity5",
+  "references": [
+    "ProBuilderCore-Unity5",
+    "Poly2Tri",
+    "KdTreeLib"
+  ],
+  "allowUnsafeCode": true
+}

@@ -1,0 +1,53 @@
+using System;
+using System.Collections.Generic;
+using System.IO;
+using TriangleNet.Geometry;
+
+namespace TriangleNet.IO
+{
+	public class TriangleFormat : IGeometryFormat, IMeshFormat
+	{
+		public Mesh Import(string filename)
+		{
+			switch (Path.GetExtension(filename))
+			{
+			case ".node":
+			case ".poly":
+			case ".ele":
+			{
+				InputGeometry geometry;
+				List<ITriangle> triangles;
+				FileReader.Read(filename, out geometry, out triangles);
+				if (geometry != null && triangles != null)
+				{
+					Mesh mesh = new Mesh();
+					mesh.Load(geometry, triangles);
+					return mesh;
+				}
+				break;
+			}
+			}
+			throw new NotSupportedException("Could not load '" + filename + "' file.");
+		}
+
+		public void Write(Mesh mesh, string filename)
+		{
+			FileWriter.WritePoly(mesh, Path.ChangeExtension(filename, ".poly"));
+			FileWriter.WriteElements(mesh, Path.ChangeExtension(filename, ".ele"));
+		}
+
+		public InputGeometry Read(string filename)
+		{
+			string extension = Path.GetExtension(filename);
+			if (extension == ".node")
+			{
+				return FileReader.ReadNodeFile(filename);
+			}
+			if (extension == ".poly")
+			{
+				return FileReader.ReadPolyFile(filename);
+			}
+			throw new NotSupportedException("File format '" + extension + "' not supported.");
+		}
+	}
+}

@@ -1,0 +1,7 @@
+{
+  "name": "UnityEngine.Analytics",
+  "references": [
+    "UnityEngine.StandardEvents"
+  ],
+  "allowUnsafeCode": true
+}
